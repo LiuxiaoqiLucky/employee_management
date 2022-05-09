@@ -1,0 +1,25 @@
+.ant-table-wrapper {
+    width: 98%;
+    height: 100%;
+    position: relative;
+    top: 30px;
+  }
+  .ant-table {
+    background-color: none;
+    color: rgb(10, 10, 10);
+  }
+   /*表头样式*/
+  .ant-table-thead > tr > th {
+    background-color: none;
+    color: rgb(10, 10, 10);
+  }
+  /*去除边框，留右边框 && 表格内容居中 && 行高*/
+  .ant-table-tbody > tr > td ,.ant-table-thead > tr > th{
+    border-bottom: none;
+    border-right: 1px solid #ccc;
+    text-align: center !important;
+    padding: 10px 10px !important;
+  }
+
+
+
